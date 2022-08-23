@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li><span>séries</span>
+      <ul>
+        {% for serie in collections.series %}
+          {% if serie %}
+            <li>
+              <a href="{{ serie.url }}">{{serie.data.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+    <li><a href="about.html">à propos</a></li>
+  </ul>
+</nav>
+

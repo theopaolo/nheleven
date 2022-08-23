@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+  {% include '../partials/guide.njk' %}
+
+  {% include '../partials/nav.njk' %}
+
+  <main id="content">
+    {{ content | safe }}
+  </main>
+
+  {% include '../partials/footer.njk' %}
+</body>
+</html>

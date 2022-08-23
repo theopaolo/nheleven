@@ -1,0 +1,7 @@
+node_modules
+src/assets
+src/assets/*.mp3
+src/assets/*/**/*.jpg
+src/assets/*/*.mov
+
+
