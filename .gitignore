@@ -5,3 +5,6 @@ src/assets/*/**/*.jpg
 src/assets/*/*.mov
 
 
+*/.DS_Store
+**/.DS_Store
+*DS_Store
